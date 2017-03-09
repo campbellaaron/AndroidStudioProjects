@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.doomedforfailure.togglebuttons.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:text="@string/title"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/titleView" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:id="@+id/toggleButtonID"
+        android:textOff="@string/btnOff"
+        android:textOn="@string/btnOn" />
+
+    <TextView
+        android:text="@string/text_stuff"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButtonID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:id="@+id/resultText" />
+</RelativeLayout>

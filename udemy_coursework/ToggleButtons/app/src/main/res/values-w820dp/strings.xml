@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Hide and Seek!</string>
+    <string name="text_stuff">Peek-a-Boo!</string>
+    <string name="btnOff">Where\'d it go!?</string>
+    <string name="btnOn">Visible</string>
+</resources>

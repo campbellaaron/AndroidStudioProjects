@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SeekBarPractice</string>
+    <string name="title">On a scale of 1 to 10, how nice are you?</string>
+    <string name="nice_text">Niceness:</string>
+</resources>
